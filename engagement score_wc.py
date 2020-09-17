@@ -78,8 +78,8 @@ class Engagement_wc(object):
         return df
 
 
-# if __name__ == '__main__':
-#     df1=pd.read_csv('/Users/zhushenghua/test1.csv')
-#     df2=pd.read_csv('/Users/zhushenghua/test2.csv')
-#     test = Engagement_wc(df1,df2)
-#     print(test.get_engagement_score())
+if __name__ == '__main__':
+    df1=pd.read_csv('/Users/zhushenghua/test1.csv')
+    df2=pd.read_csv('/Users/zhushenghua/test2.csv')
+    test = Engagement_wc(df1,df2)
+    print(test.get_engagement_score())
