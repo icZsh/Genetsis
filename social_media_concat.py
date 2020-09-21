@@ -123,7 +123,7 @@ class PushDatabase(object):
     def push_to_db(self):
         dbutils = DBUtils(self.config)
         db = "media"
-        dbutils.push_table_df(df=self.df, db=db, table="wb_wc_article_list_test", if_exists="replace")
+        dbutils.push_table_df(df=self.df, db=db, table="wb_wc_article_list", if_exists="replace")
 
 
 if __name__ == '__main__':
